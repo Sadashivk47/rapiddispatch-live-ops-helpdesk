@@ -1,0 +1,6 @@
+{
+  "name": "RapidDispatch Live Ops Helpdesk",
+  "description": "Real-time collaborative support ticket dashboard with live ticket locking via Socket.io.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
