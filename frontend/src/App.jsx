@@ -4,7 +4,7 @@ import TicketBoard from './components/TicketBoard';
 import TicketEditor from './components/TicketEditor';
 import ConnectionBanner from './components/ConnectionBanner';
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000';
+const BACKEND_URL = (import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000').replace(/\/+$/, '');
 
 export default function App() {
   const [tickets, setTickets] = useState([]);
